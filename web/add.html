@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Admin</title>
+        <meta charset="ISO-8859-9">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style type="text/css" >
+               /* estilos CSS*/
+             @import url("estilos.css");
+          
+                                #cuadro
+  {
+       border: gray 2px solid;
+    margin-bottom: 50px;
+        margin-left:150px;
+        margin-right:200px;
+        
+        margin-top:150px;
+  }
+              
+              
+              
+             
+             
+            
+        </style>
+    </head>
+    <body>
+            
+      
+        <div  id="principal"  >   
+            
+            <div id="top">
+              <div id="menu">
+                     
+                <ul class="nav">
+                    <li><a href="AdminLogged.html">Home</a></li> 
+                     <li><a href="add.html">Añadir Noticias</a></li>  
+                     <li><a href="">Editar Noticia</a></li>  
+                       
+                  
+                </ul>
+                       </div>
+                
+       
+            <div id="logo"> <a href="index.html"><img src="imagenes/banner.jpg"  alt="banner" height="150" width="850"/> </a></div><!--Banner de la pagina-->
+                  
+           </div><!--cierre div top-->
+                
+                
+           <div>
+               <form action="logout" method="POST">
+              
+        <h1>Bienvenido Admin</h1> <input type="submit" name="boton"  value="______" style='background:url("imagenes/logout.png") no-repeat ;'/>
+               
+               </form>
+           </div>
+          
+           <div id="cuadro" align="left">
+             
+              
+             Título  <input type="text" name="titulo"   /><br>
+     Noticia : <br> <textarea name="ariculo" rows="10" cols="40" placeholder="Nuevo artículo"></textarea>
+               
+           
+           </div>
+             
+
+                     
+           <div id="pie" >
+               @2016 TheMountain.cl  
+           </div> 
+                     
+                        </div >  
+                        
+
+    </body>
+</html>

@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-03-2016, 10:23:23
+    Author     : Leica
+*/
+
+  /* estilos CSS*/
+   body
+               {
+                      background: #fff;
+                      background-repeat: no-repeat  ;
+                      background-size: cover;
+                      background-image:url("imagenes/snow2.jpg");
+                       font-family: sans-serif;
+                       text-align: justify;
+                       height:300%;
+                       
+               }
+  
+               
+         div#principal{
+   margin:auto;
+      width:850px;
+      height:1750px;
+      background-color: #fff;
+      position:relative;
+       text-align:center;
+       
+  }
+  
+  div#logo {
+  position: relative;
+ width:850px;
+  top: 5%; 
+ 
+}
+ div#pie
+{
+    width:850px;
+	height:100px;
+        background-color:#0099cc;
+        position: absolute;
+         bottom: 0;
+}
+
+
+#menu{
+   background-color:#0099cc;
+    margin:auto;
+
+    font-family:Helveica;
+    width:850px;
+	height:100px;
+        
+}
+ul, ol{
+    list-style:none;
+}
+.nav li a{
+    background-color:#000000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 15px;
+    display:block;
+   
+    
+}
+.nav >li{
+    float:left;
+}
+.nav li a:hover{
+    background-color:#434343;
+}
+
+/*
+.nav li ul{ 
+    display:none;
+}
+*/
+
+
+  #registro
+  {
+       border: gray 2px solid;
+    margin-bottom: 50px;
+        margin-left:150px;
+        margin-right:200px;
+        
+        margin-top:150px;
+  }
+
+
+#about
+{
+    border: gray 2px solid;
+    margin-bottom: 50px;
+        margin-left:150px;
+        margin-right:200px;
+        
+        margin-top:150px;
+}
+
+/*para buscar en la pagina*/
+#buscar{
+	float: right;
+	height: 27px;
+	width:310px;
+        margin-left:150px;
+        
+	padding:0px !important;
+}
+div#anuncios{
+    margin-left: 1050px;
+    margin-top: 450px;
+   position:absolute;
+     background-color:black;
+     width:200px;
+     height:200px;
+}
+
+
+              
+              
+               .texto
+               {
+                   text-justify: initial;
+                   font-size:48px;
+               }
+               #parrafo
+               {
+                   color :dodgerblue;
+                    text-align: center;
+               }
+          
+              
+               a:hover
+               {
+                   text-decoration:  none;
+                   color:#00cccc
+               }
+               a:active
+               {
+                   color:#00ffff
+               }
+               a:link
+               {
+                   text-decoration: none;
+                   color:#0099cc;
+               }
+               a:visited{
+                   color:#000000;
+               }
+               a{
+                   font-size: 16px;
+               }
+          
+              

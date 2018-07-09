@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ingreso</title>
+        <meta charset="ISO-8859-9">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css" >
+               /* estilos CSS*/
+             @import url("estilos.css");
+                      #login
+  {
+       border: gray 2px solid;
+    margin-bottom: 50px;
+        margin-left:150px;
+        margin-right:200px;
+        
+        margin-top:150px;
+  }
+             
+        </style>
+      </head>
+    
+    <body>
+       
+        <div  id="principal"  >   
+            
+            <div id="top">
+              <div id="menu">
+                     
+                <ul class="nav">
+                    <li><a href="index.html">Inicio</a></li>  
+                     <li><a href="about.html">Acerca de</a></li>  
+                     <li><a href="registro.html">Registro</a></li>  
+                     <li><a href="ingresoUsuario.html">Login</a></li>  
+                                <li><a href="Contacto.html">Contacto</a></li>  
+                  
+                </ul>
+                       </div>
+                
+       
+            <div id="logo"> <a href="index.html"><img src="imagenes/banner.jpg"  alt="banner" height="150" width="850"/> </a></div><!--Banner de la pagina-->
+                  
+           </div>
+            
+            <div id="login">
+            <form action="ServletIngreso" method="POST">
+                <br>
+                <h3>Ingreso Usuario </h3>
+                <center> Nombre Usuario:<input type="text" name="nombre"/></center><br>
+                <center> Contraseña:<input type="password" name="pass"/>  </center><br>
+                 <center> <input type="submit" name="boton" value="Entrar"/>  </center><br>
+            </form>
+                </div>
+           
+            <div id="pie" >
+               @2016 TheMountain.cl  
+           </div> 
+                     
+                        </div >  
+    </body>
+</html>

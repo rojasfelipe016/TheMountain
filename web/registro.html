@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css" >
+               /* estilos CSS*/
+             @import url("estilos.css");
+              #registro
+  {
+       border: gray 2px solid;
+    margin-bottom: 50px;
+        margin-left:150px;
+        margin-right:200px;
+        
+        margin-top:150px;
+  }
+             
+              
+                     </style>
+    </head>
+    <body>
+<div  id="principal"  >  
+    
+             <div id="top">
+              <div id="menu">
+                     
+                <ul class="nav">
+                    <li><a href="index.html">Inicio</a></li>  
+                     <li><a href="about.html">Acerca de</a></li>  
+                     <li><a href="registro.html">Registro</a></li>  
+                     <li><a href="ingresoUsuario.html">Login</a></li>  
+                                <li><a href="Contacto.html">Contacto</a></li> 
+                </ul>
+                       </div>  
+             <div id="logo"> <a href="index.html"><img src="imagenes/banner.jpg"  alt="banner" height="150" width="850"/> </a></div><!--Banner de la pagina-->
+            
+             </div>
+    <div id="registro">
+        <h3>Registro nuevo usuario</h3><br>
+        <form action="login" method="POST">
+      <center>  <input type="text" name="nombre" placeholder="Nombre"/></center> <br>
+         <center>   <input type="text" name="apellidos" placeholder="Apellidos"/></center> <br>
+           <center>   <input type="email" name="correo" placeholder="tu correo electronico"/></center> <br>
+             <center>   <input type="email" name="correo" placeholder="vuelve a escribir tu correo"/></center> <br>
+             <center>   <input type="password" name="contraseña" placeholder="Nueva contraseña"/></center> <br>   
+             <center>   <input type="password" name="contraseña2" placeholder="cofirme contraseña"/></center> <br>   
+                   <center>   <input type="radio" name="Sexo" value="mujer"/>Mujer</center> 
+                   <center>   <input type="radio" name="Sexo" value="hombre"/> Hombre</center> 
+                   <br>
+                         <center>   <input type="submit" name="boton" value="Registrarse"/> </center> 
+                         
+      </form>
+        
+    </div>
+    
+    <div id="pie"> @2016 TheMountain.cl  </div> 
+</div>
+    </body>
+</html>

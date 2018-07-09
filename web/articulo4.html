@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>El nuevo deporte de nieve se llama Droneboarding</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css" >
+               /* estilos CSS*/
+             @import url("estilos.css");
+          
+             #noticia
+              {
+                  width: 750px;
+                  height: auto;
+                
+                  position: relative;
+                  top: 20px;
+                  left:50px;
+                 border-style: solid;
+                 
+                      
+              }
+               #comentarios
+              {
+                  float:bottom;
+                  height:auto;
+                      
+              }
+             
+        </style>
+    </head>
+    <body>
+         <div id="anuncios">
+      <img src="imagenes/anuncio.gif"   height="200" width="200"/> 
+        </div>
+        
+         <div  id="principal"  ><!--div principal-->    
+             <div id="top">
+              <div id="menu">
+                     
+                <ul class="nav">
+                    <li><a href="index.html">Inicio</a></li>  
+                     <li><a href="about.html">Acerca de</a></li>  
+                     <li><a href="registro.html">Registro</a></li>  
+                     <li><a href="ingresoUsuario.html">Login</a></li>  
+                                <li><a href="Contacto.html">Contacto</a></li> 
+                </ul>
+                       </div><!--fin menu-->
+            
+             <div id="logo"> <a href="index.html"><img src="imagenes/banner.jpg"  alt="banner" height="150" width="850"/> </a></div><!--Banner de la pagina-->
+             </div>
+             
+             <div id="noticia"><!--Corresponde al articulo  -->
+                 <h4 >El nuevo deporte de nieve se llama Droneboarding </h4><br>
+                     
+                    
+                    <p>Hace unas semanas en Rusia, a un señor se le ocurrió atar un dron a su hijo para arrastrarlo 
+                        por la nieve con su tabla de snowboard. Después fue el turno de unos snowboarders que se ataron un dron
+                        para deslizarse, asi nació el ‘Droneabording’ que podría definirse como una variante de la práctica del snowboard 
+                        en la que el usuario se coloca sobre una superficie nevada y regular, sin demasiadas pendientes, para ser remolcado
+                        por un drone lo suficientemente potente.
+
+                      </p> <!--parrafo1-->
+                      
+                      <div > <iframe width="500" height="300" src="https://www.youtube.com/embed/cj39lrKPUp4" frameborder="0" allowfullscreen></iframe></div>
+                      
+                      
+                      <div > <iframe width="500" height="300" src="https://www.youtube.com/embed/UsNdvgwCli8" frameborder="0" allowfullscreen></iframe></div>
+         
+                      <!-- sección comentarios-->
+                     <div id ="comentarios" >
+                         <h3>Comenta esta noticia </h3>
+            
+	<div class="row">
+		<label for="name">Tu nombre:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Tu email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Tu mensaje:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30">Escribe aquí tu comentario</textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Enviar" />
+					
+        </div><!--fin div contenedor comentarios-->
+                     
+             </div><!--div noticia-->
+           
+            
+            
+            
+            <div id="pie" > @2016 TheMountain.cl  </div>
+    </div>
+             
+    </body>
+</html>
